@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.appminic.kamera" />
+                  <option name="mobileSdkAppId" value="1:134897845547:android:d2d06cb979d79541be316e" />
+                  <option name="projectId" value="kamera-e85b7" />
+                  <option name="projectNumber" value="134897845547" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    // Add the Google services Gradle plugin
+    id("com.google.gms.google-services")
+
 }
 
 // Read local.properties file
@@ -64,4 +67,19 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // Import the Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:33.15.0"))
+
+    // Firebase Analytics
+    implementation("com.google.firebase:firebase-analytics")
+    
+    // Firebase Firestore
+    implementation("com.google.firebase:firebase-firestore-ktx")
+    
+    // Firebase Authentication
+    implementation("com.google.firebase:firebase-auth-ktx")
+    
+    // Google Sign In
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
 }

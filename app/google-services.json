@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "134897845547",
+    "project_id": "kamera-e85b7",
+    "storage_bucket": "kamera-e85b7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134897845547:android:d2d06cb979d79541be316e",
+        "android_client_info": {
+          "package_name": "com.appminic.kamera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134897845547-q05fiqe6spf0hno4g75pc50fmgbm2knp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XvBxbbC-p5TnmR1jFh5N9o5EbXXpey0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134897845547-q05fiqe6spf0hno4g75pc50fmgbm2knp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
