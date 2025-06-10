@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_map">
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.appminic.kamera.ui.map.MapFragment"
+        android:label="Map" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.appminic.kamera.ui.dashboard.DashboardFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_report"
+        android:name="com.appminic.kamera.ui.report.ReportFragment"
+        android:label="Report" />
+
+</navigation> 
